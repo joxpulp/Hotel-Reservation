@@ -1,0 +1,96 @@
+/* ESTILOS GLOBALES */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 251, 252);
+}
+
+/* ESTILOS GLOBALES DE SELECT ANT DESIGN */
+
+.ant-select {
+  width: 100%;
+  height: 100%;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 100%;
+  padding-left: 40px;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  box-shadow: 0px 0px 1px 3px rgba(221, 199, 127, 0.685);
+}
+
+.anticon svg {
+  fill: white;
+}
+
+.ant-select-dropdown {
+  background-color: rgba(240, 240, 240, 0.926);
+}
+
+.ant-select-item {
+  color: rgb(10, 5, 60);
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #ffd500b9;
+  color: rgb(0, 0, 0);
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #fff0a4b9;
+  color: rgb(0, 0, 0);
+}
+
+/* ESTILOS GLOBALES DE TEXT COLOR Y FLEX */
+
+.blue-color {
+  color: #00296b;
+}
+
+.yellow-color {
+  color: #ffd500;
+}
+
+ .grey-dark {
+  color: rgb(54, 54, 54);
+}
+
+.grey-light {
+  color: rgb(90, 90, 90);
+}
+
+.white-color {
+  color: white;
+}
+
+.white-opaque {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-vertical-center {
+  display: flex;
+  align-items: center;
+}

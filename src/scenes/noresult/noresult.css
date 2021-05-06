@@ -1,0 +1,15 @@
+.no-result-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.no-result-icon {
+  margin-bottom: 20px;
+  color: #dd9e00;
+  font-size: 50px;
+}

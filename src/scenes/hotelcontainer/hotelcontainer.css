@@ -1,0 +1,32 @@
+
+.hotel-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* DEKSTOP VERSION */
+
+@media screen and (min-width: 768px) {
+
+  .body-container {
+    display: grid;
+    width: 95%;
+    padding: 70px 0px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-gap: 40px;
+  }
+  
+}
+
+/* MOBILE VERSION */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 32px 0px;
+  }  
+
+}
